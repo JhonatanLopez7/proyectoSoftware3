@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Modulo Convocatoria',
+	'name'=>'Módulo Convocatoria',
 	'theme'=>'classic',
 
 	// preloading 'log' component

@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Lista Convocatorias', 'url'=>array('index')),
+	array('label'=>'Lista Convocatorias', 'url'=>array('admin')),
 	array('label'=>'Crear Convocatoria', 'url'=>array('create')),
 	array('label'=>'Editar Convocatoria', 'url'=>array('update', 'id'=>$model->numero_Convocatoria)),
 	array('label'=>'Eliminar Convocatoria', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->numero_Convocatoria),'confirm'=>'Are you sure you want to delete this item?')),
