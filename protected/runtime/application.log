@@ -1,0 +1,98 @@
+2014/11/05 10:32:39 [error] [php] Array to string conversion (C:\xampp\htdocs\yii\framework\gii\generators\crud\templates\default\controller.php:81)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(162): CrudCode->prepare()
+#1 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CrudGenerator->prepare()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CrudGenerator->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CrudGenerator->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CrudGenerator->runActionWithFilters()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CrudGenerator->run()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\proyectoSoftware3\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/proyectoSoftware3/gii/crud/index.html
+in C:\xampp\htdocs\yii\proyectoSoftware3\index.php (13)
+2014/11/05 17:05:30 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\proyectoSoftware3\index.php(13): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/yii/proyectoSoftware3/gii
+---
+2014/11/05 17:09:16 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\proyectoSoftware3\index.php(13): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/yii/proyectoSoftware3/gii
+---
+2014/11/05 18:33:08 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "calendar".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\_form.php(60): CComponent->__call('calendar', Array)
+#1 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\_form.php(60): CActiveForm->calendar(Object(Convocatoria), 'fechaUltimaModi...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\yii\proyectoSoftware3\protected\controllers\ConvocatoriaController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ConvocatoriaController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatoria/cr...')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\yii\proyectoSoftware3\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/proyectoSoftware3/convocatoria/create.html
+HTTP_REFERER=http://localhost/yii/proyectoSoftware3/convocatoria/1.html
+---
+2014/11/05 18:33:26 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "control".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\_form.php(60): CComponent->__call('control', Array)
+#1 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\_form.php(60): CActiveForm->control(Object(Convocatoria), 'fechaUltimaModi...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\proyectoSoftware3\protected\views\convocatoria\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\yii\proyectoSoftware3\protected\controllers\ConvocatoriaController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ConvocatoriaController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatoria/cr...')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\yii\proyectoSoftware3\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/proyectoSoftware3/convocatoria/create.html
+HTTP_REFERER=http://localhost/yii/proyectoSoftware3/convocatoria/1.html
+---
